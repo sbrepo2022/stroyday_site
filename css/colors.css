@@ -1,11 +1,15 @@
 :root {
-	--default-font-size: 12pt;
-
 	--color-primary: #1B2F54;
-	--color-secondary: #334d6e;
 	--color-btn-primary: #0d6fe3;
 	--color-light-gray: #dfe6f0;
+
+    --color-dark-blue: #334d6e;
 	--color-gray: #90a0b7;
+    --color-icon-gray: #c2cfe0;
+
+    --color-black: #192a3e;
+    --color-table-black: #323c47;
+    --color-table-gray: #707683;
 }
 
 .color-white {
@@ -16,6 +20,14 @@
 	color: var(--color-primary);
 }
 
-.color-secondary {
-	color: var(--color-secondary);
+.color-dark-blue {
+	color: var(--color-dark-blue);
+}
+
+.color-gray {
+    color: var(--color-gray);
+}
+
+.color-icon-gray {
+    color: var(--color-icon-gray);
 }

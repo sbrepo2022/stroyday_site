@@ -6,6 +6,22 @@
 	background-repeat: no-repeat;
 }
 
+.icon-small {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	background-size: contain; 
+	background-repeat: no-repeat;
+}
+
+.icon-middle {
+	display: inline-block;
+	width: 1.25em;
+	height: 1.25em;
+	background-size: contain; 
+	background-repeat: no-repeat;
+}
+
 .login-icon {
 	background-image: url(../resources/icons/log_in.svg); 
 } 
@@ -16,10 +32,59 @@
 
 .search-icon {
 	background-image: url(../resources/icons/search.svg);
-	width: 1rem;
-	height: 1rem;
 }
 
 .right-icon {
 	background-image: url(../resources/icons/right.svg); 
+}
+
+.eye-on-icon {
+	background-image: url(../resources/icons/eye-on.svg);
+}
+
+.message-icon {
+	background-image: url(../resources/icons/message.svg);
+}
+
+
+/* checkboxes */
+@keyframes animTouch {
+	0% {transform: scale(1.0);}
+	50% {transform: scale(1.1);}
+	100% {transform: scale(1.0);}
+}
+
+.icon-checkbox {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+}
+
+.icon-checkbox + span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 1em;
+	height: 1em;
+	background-size: contain; 
+	background-repeat: no-repeat;
+}
+
+.icon-checkbox:checked + span {
+	animation: animTouch 0.2s ease forwards;
+}
+
+.like-checkbox + span {
+	background-image: url(../resources/icons/like.svg);
+}
+
+.like-checkbox:checked + span {
+	background-image: url(../resources/icons/like-checked.svg); 
+}
+
+.bookmark-checkbox + span {
+	background-image: url(../resources/icons/bookmark.svg);
+}
+
+.bookmark-checkbox:checked + span {
+	background-image: url(../resources/icons/bookmark-checked.svg); 
 }

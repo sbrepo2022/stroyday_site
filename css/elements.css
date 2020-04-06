@@ -23,12 +23,23 @@
 }
 
 .link {
-	color: var(--color-secondary);
+	color: var(--color-dark-blue);
 }
 
 .link:hover {
-	color: var(--color-secondary);
+	color: var(--color-dark-blue);
 	text-decoration: none;
+}
+
+.price {
+	color: var(--color-dark-blue);
+	font-weight: 500;
+}
+
+.gray-line {
+	width: 100%;
+	height: 1px;
+	background-color: var(--color-icon-gray);
 }
 
 .card-surface {
