@@ -2,6 +2,7 @@
 	--color-primary: #1B2F54;
 	--color-btn-primary: #0d6fe3;
 	--color-light-gray: #dfe6f0;
+    --color-infoblock-bg: #eff4fb;
 
     --color-dark-blue: #334d6e;
 	--color-gray: #90a0b7;
@@ -30,4 +31,16 @@
 
 .color-icon-gray {
     color: var(--color-icon-gray);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-table-black {
+    color: var(--color-table-black);
+}
+
+.color-table-gray {
+    color: var(--color-table-gray);
 }

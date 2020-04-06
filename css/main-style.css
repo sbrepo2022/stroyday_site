@@ -20,3 +20,11 @@
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 } 
+
+.create-request-surface {
+	background-image: url('../resources/images/reliable.svg');
+	background-position: 3% 0%;
+	background-size: contain;
+	background-color: var(--color-infoblock-bg);
+	background-repeat: no-repeat;
+}
