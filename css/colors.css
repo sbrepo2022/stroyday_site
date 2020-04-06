@@ -1,0 +1,21 @@
+:root {
+	--default-font-size: 12pt;
+
+	--color-primary: #1B2F54;
+	--color-secondary: #334d6e;
+	--color-btn-primary: #0d6fe3;
+	--color-light-gray: #dfe6f0;
+	--color-gray: #90a0b7;
+}
+
+.color-white {
+	color: #fff;
+}
+
+.color-primary {
+	color: var(--color-primary);
+}
+
+.color-secondary {
+	color: var(--color-secondary);
+}

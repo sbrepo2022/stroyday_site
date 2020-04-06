@@ -1,0 +1,25 @@
+.icon {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	background-size: contain; 
+	background-repeat: no-repeat;
+}
+
+.login-icon {
+	background-image: url(../resources/icons/log_in.svg); 
+} 
+
+.menu-icon {
+	background-image: url(../resources/icons/menu.svg); 
+}
+
+.search-icon {
+	background-image: url(../resources/icons/search.svg);
+	width: 1rem;
+	height: 1rem;
+}
+
+.right-icon {
+	background-image: url(../resources/icons/right.svg); 
+}

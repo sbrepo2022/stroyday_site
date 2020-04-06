@@ -1,0 +1,22 @@
+/* search container */
+
+.search-container {
+	background-image: url('../resources/images/124578.jpg');
+	background-position: left;
+	background-color: #ebeff2;
+	background-repeat: no-repeat;
+}
+
+.search-opacity-overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.search-block {
+	background-color: var(--color-primary);
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+} 

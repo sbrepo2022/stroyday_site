@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../resources/fonts/Roboto-Regular.ttf') format('ttf');
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	font-size: var(--default-font-size);
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* common styles */
+.content {
+	padding: 1rem;
+	padding-top: 2rem;
+}
+
+.rounded-border {
+	border-radius: .25rem;
+}
+
+.btn-text-sm {
+	font-size: .9rem;
+}
+
+/* overriding bootstrap style */
+.container {
+	max-width: 1588px;
+}
+
+.btn-primary {
+	background-color: var(--color-btn-primary);
+	border-color: var(--color-btn-primary);
+}
+
+.navbar {
+	padding: 0;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.navbar-brand {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.nav-item {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+/* navbar */
+.navbar-main .navbar-nav .nav-link {
+	color: var(--color-secondary);
+}
