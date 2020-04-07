@@ -46,6 +46,10 @@
 	background-image: url(../resources/icons/message.svg);
 }
 
+.star-icon {
+	background-image: url(../resources/icons/star.svg);
+}
+
 
 /* checkboxes */
 @keyframes animTouch {
@@ -79,6 +83,14 @@
 
 .like-checkbox:checked + span {
 	background-image: url(../resources/icons/like-checked.svg); 
+}
+
+.like-checkbox-white + span {
+	background-image: url(../resources/icons/like.svg);
+}
+
+.like-checkbox-white:checked + span {
+	background-image: url(../resources/icons/like-white.svg); 
 }
 
 .bookmark-checkbox + span {

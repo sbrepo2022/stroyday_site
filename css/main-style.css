@@ -28,3 +28,11 @@
 	background-color: var(--color-infoblock-bg);
 	background-repeat: no-repeat;
 }
+
+.get-contractor-surface {
+	background-image: url('../resources/images/get-contractor.svg');
+	background-position: 3% 0%;
+	background-size: contain;
+	background-color: var(--color-infoblock-bg);
+	background-repeat: no-repeat;
+}
