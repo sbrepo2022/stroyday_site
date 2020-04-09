@@ -78,6 +78,13 @@
 	background-image: url(../resources/icons/facebook.svg);
 }
 
+.left-arrow-icon {
+	background-image: url(../resources/icons/left-arrow.svg);
+}
+
+.right-arrow-icon {
+	background-image: url(../resources/icons/right-arrow.svg);
+}
 
 /* checkboxes */
 @keyframes animTouch {
