@@ -21,18 +21,10 @@
 	padding-bottom: 1rem;
 } 
 
-.create-request-surface {
-	background-image: url('../resources/images/reliable.svg');
+.infoblock-surface {
 	background-position: 3% 0%;
 	background-size: contain;
 	background-color: var(--color-infoblock-bg);
 	background-repeat: no-repeat;
 }
 
-.get-contractor-surface {
-	background-image: url('../resources/images/get-contractor.svg');
-	background-position: 3% 0%;
-	background-size: contain;
-	background-color: var(--color-infoblock-bg);
-	background-repeat: no-repeat;
-}

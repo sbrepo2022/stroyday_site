@@ -58,6 +58,48 @@ a:hover {
 	margin-bottom: 5rem;
 }
 
+.line-clamp-2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+  	overflow: hidden;
+}
+
+.line-clamp-3 {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;  
+  	overflow: hidden;
+}
+
+.w-20 {
+	width: 20%;
+}
+
+.w-40 {
+	width: 40%;
+}
+
+.wrapper-4-3 {
+	position: relative;
+	width: 100%;
+	padding-bottom: 75%;
+}
+
+.wrapper-16-9 {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+}
+
+.content-aspect {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
 /* overriding bootstrap style */
 .container {
 	max-width: 1588px;
@@ -91,4 +133,54 @@ a:hover {
 /* navbar */
 .navbar-main .navbar-nav .nav-link {
 	color: var(--color-dark-blue);
+}
+
+/*	footer */
+.footer-block-title {
+	color: color: var(--color-dark-blue);
+}
+
+.footer-block-list {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-block-list li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1rem;
+}
+
+.footer-bottom {
+	background-color: #000;
+}
+
+.footer-bottom-list {
+	margin: 0;
+	padding: 1rem;
+	display: flex;
+}
+
+.footer-bottom-list li {
+	list-style-type: none;
+	margin: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0;
+	flex-basis: 20%;
+}
+
+.footer-bottom-list li:last-child {
+	flex-basis: 40%;
+}
+
+.footer-email-input {
+	background-color: #000;
+	border: 1px solid var(--color-gray);
+	padding: 1rem;
+	border-radius: 0.25rem;
+	color: var(--color-gray);
+	width: 60%;
+	text-align: center;
 }

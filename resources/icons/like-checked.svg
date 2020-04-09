@@ -13,7 +13,7 @@
    fill="none"
    version="1.1"
    id="svg4"
-   sodipodi:docname="like-hover.svg"
+   sodipodi:docname="like-checked.svg"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <metadata
      id="metadata10">
@@ -42,8 +42,8 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="16.857143"
-     inkscape:cx="7.5"
-     inkscape:cy="7"
+     inkscape:cx="6.4322035"
+     inkscape:cy="6.5847458"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -52,5 +52,5 @@
      d="M7.5 14L6.45 12.9348C2.55 9.43478 0 7.07609 0 4.18478C0 1.82609 1.8 0 4.125 0C5.4 0 6.675 0.608695 7.5 1.59783C8.325 0.608695 9.6 0 10.875 0C13.2 0 15 1.82609 15 4.18478C15 7.07609 12.45 9.43478 8.55 12.9348L7.5 14Z"
      fill="#90A0B7"
      id="path2"
-     style="fill:#334d6e;fill-opacity:1" />
+     style="fill:#eb5757;fill-opacity:1" />
 </svg>
