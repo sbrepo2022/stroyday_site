@@ -70,12 +70,28 @@
 	background-image: url(../resources/icons/vk.svg);
 }
 
+.telegram-icon {
+	background-image: url(../resources/icons/telegram.svg);
+}
+
 .instagram-icon {
 	background-image: url(../resources/icons/instagram.svg);
 }
 
 .facebook-icon {
 	background-image: url(../resources/icons/facebook.svg);
+}
+
+.whatsapp-icon {
+	background-image: url(../resources/icons/whatsapp.svg);
+}
+
+.viber-icon {
+	background-image: url(../resources/icons/viber.svg);
+}
+
+.youtube-icon {
+	background-image: url(../resources/icons/youtube.svg);
 }
 
 .left-arrow-icon {

@@ -22,6 +22,36 @@
 	border-color: var(--color-btn-primary);
 }
 
+.checkbox-pill + span {
+	display: inline-block;
+
+	padding: .25rem;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+	margin: .25rem;
+
+	border-radius: .75rem;
+	border: 1px solid var(--color-light-gray);
+
+	color: var(--color-gray);
+	font-size: .9rem;
+
+	transition-property: color, background-color, border-color;
+	transition-duration: .2s;
+}
+
+.checkbox-pill + span:hover {
+	color: #fff;
+	background-color: var(--color-btn-primary);
+	border-color: var(--color-btn-primary);
+}
+
+.checkbox-pill:checked + span {
+	color: #fff;
+	background-color: var(--color-btn-primary);
+	border-color: var(--color-btn-primary);
+}
+
 .link {
 	color: var(--color-dark-blue);
 }
