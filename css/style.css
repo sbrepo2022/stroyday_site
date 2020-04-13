@@ -3,8 +3,39 @@
 	src: url('../resources/fonts/Roboto-Regular.ttf') format('ttf');
 }
 
-:root {
-	--default-font-size: 12pt;
+/* xs */
+@media (max-width: 575.98px) {
+	:root {
+		--default-font-size: 10pt;
+	}
+}
+
+/* sm */
+@media (max-width: 767.98px) and (min-width: 576px) {
+	:root {
+		--default-font-size: 11pt;
+	}
+}
+
+/* md */
+@media (max-width: 991.98px) and (min-width: 768px) {
+	:root {
+		--default-font-size: 11pt;
+	}
+}
+
+/* lg */
+@media (max-width: 1199.98px) and (min-width: 992px) {
+	:root {
+		--default-font-size: 12pt;
+	}
+}
+
+/* xl */
+@media (min-width: 1200px) {
+	:root {
+		--default-font-size: 12pt;
+	}
 }
 
 * {
@@ -30,8 +61,7 @@ a:hover {
 
 /* common styles */
 .content {
-	padding: 1rem;
-	padding-top: 2rem;
+
 }
 
 .rounded-border {
@@ -167,6 +197,8 @@ a:hover {
 	margin: 0;
 	padding: 1rem;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .footer-bottom-list li {
@@ -174,12 +206,12 @@ a:hover {
 	margin: 0;
 	margin-top: auto;
 	margin-bottom: auto;
-	padding: 0;
-	flex-basis: 20%;
+	padding: 0.5rem;
+	flex-grow: 1;
 }
 
 .footer-bottom-list li:last-child {
-	flex-basis: 40%;
+	flex-grow: 2;
 }
 
 .footer-email-input {

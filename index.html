@@ -23,7 +23,7 @@
         	<nav class="navbar navbar-expand-lg navbar-main bg-white">
 				<a class="navbar-brand p-0" href="#"><img src="resources/logo/logo.png" class="logo"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
+				    <span class="navbar-toggler-icon menu-icon"></span>
 				</button>
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -86,16 +86,16 @@
 	        							<div class="icon-small search-icon m-auto"></div>
 	        							<div class="mr-3"></div>
 	        							<input class="border-0 flex-grow-1 py-2" type="search" placeholder="Поиск...">
-								        <a class="link dropdown-toggle p-2" href="#" id="searchCategoriesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								        <a class="link dropdown-toggle p-2 d-xl-inline d-lg-inline d-md-inline d-none" href="#" id="searchCategoriesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								        	Все категории
 								        </a>
+                                        <a class="icon-middle sliders-icon m-auto d-xl-none d-lg-none d-md-none d-inline" href="#" id="searchCategoriesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
 								        <div class="dropdown-menu" aria-labelledby="searchCategoriesDropdown">
-									        <a class="dropdown-item" href="#">Action</a>
-									        <a class="dropdown-item" href="#">Another action</a>
-									        <div class="dropdown-divider"></div>
-									        <a class="dropdown-item" href="#">Something else here</a>
+									        <a class="dropdown-item" href="#">Категория 1</a>
+									        <a class="dropdown-item" href="#">Категория 2</a>
+									        <a class="dropdown-item" href="#">Категория 3</a>
 								        </div>
-	        							<button type="button" class="btn btn-primary btn-text-sm px-3">Заказать услугу</button>
+	        							<button type="button" class="btn btn-primary btn-text-sm px-3 ml-2">Найти</button>
 	        						</div>
 	        					</div>
 	        					<div>
@@ -112,10 +112,10 @@
         	</div>
 
         	<!-- main page content -->
-        	<div class="content">
+        	<div class="content py-4 px-xl-4 px-lg-4 px-md-4 px-0">
 	        	<div class="container">
-	        		<div class="row mb-5">
-	        			<div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+	        		<div class="row mb-5 categories-block flex-xl-row flex-lg-row flex-md-row flex-column overflow-auto pt-4">
+	        			<div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
 	        				<a href="#">
 		        				<div class="card-surface category-card">
 		        					<div class="float-left h-100 mr-4">
@@ -125,7 +125,7 @@
 		        				</div>
 		        			</a>
 	        			</div>
-	        			<div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+	        			<div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
 	        				<a href="#">
 		        				<div class="card-surface category-card">
 		        					<div class="float-left h-100 mr-4">
@@ -135,7 +135,7 @@
 		        				</div>
 		        			</a>
 	        			</div>
-	        			<div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+	        			<div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
 	        				<a href="#">
 		        				<div class="card-surface category-card">
 		        					<div class="float-left h-100 mr-4">
@@ -145,7 +145,7 @@
 		        				</div>
 		        			</a>
 	        			</div>
-	        			<div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+	        			<div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
 	        				<a href="#">
 		        				<div class="card-surface category-card">
 		        					<div class="float-left h-100 mr-4">
@@ -155,7 +155,7 @@
 		        				</div>
 		        			</a>
 	        			</div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
                             <a href="#">
                                 <div class="card-surface category-card">
                                     <div class="float-left h-100 mr-4">
@@ -165,7 +165,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
                             <a href="#">
                                 <div class="card-surface category-card">
                                     <div class="float-left h-100 mr-4">
@@ -175,7 +175,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
                             <a href="#">
                                 <div class="card-surface category-card">
                                     <div class="float-left h-100 mr-4">
@@ -185,7 +185,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
                             <a href="#">
                                 <div class="card-surface category-card">
                                     <div class="float-left h-100 mr-4">
@@ -195,7 +195,7 @@
                                 </div>
                             </a>
                         </div>
-	        			<div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+	        			<div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
 	        				<a href="#">
 		        				<div class="card-surface category-card">
 		        					<div class="float-left h-100 mr-4">
@@ -205,7 +205,7 @@
 		        				</div>
 		        			</a>
 	        			</div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
                             <a href="#">
                                 <div class="card-surface category-card">
                                     <div class="float-left h-100 mr-4">
@@ -215,7 +215,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
                             <a href="#">
                                 <div class="card-surface category-card">
                                     <div class="float-left h-100 mr-4">
@@ -225,7 +225,7 @@
                                 </div>
                             </a>
                         </div>
-	        			<div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-4">
+	        			<div class="col-xl-3 col-lg-6 col-md-6 col-10 mb-4">
 	        				<a href="#">
 		        				<div class="card-surface category-card other-categories-card d-flex">
 		        					<div class="m-auto d-flex">
@@ -257,14 +257,13 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row mb-5 flex-xl-wrap flex-lg-wrap flex-md-wrap flex-nowrap overflow-auto">
                         <!-- request 1-->
-                        <div class="col-xl-6 col-12 pr-5 mb-6">
-                            <div class="d-flex mb-2">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-10 pr-5 mb-4">
+                            <div class="d-flex flex-wrap mb-2">
                                 <a class="btn-text-big link mr-auto text-truncate" href="#">
                                     Герметизация душевой кабины и ванной
                                 </a>
-                                <div class="mr-4"></div>
                                 <span class="btn-text-big price mr-4 text-nowrap">150 000 ₽</span>
                                 <label class="mr-4"><input type="checkbox" class="d-none icon-checkbox like-checkbox"><span></span></label>
                                 <label class=""><input type="checkbox" class="d-none icon-checkbox bookmark-checkbox"><span></span></label>
@@ -273,28 +272,29 @@
                             <p class="mb-4">
                                 Разработать амбиаграммы в смеси кельтского и старославянского стиля. Ищу исполнителя по следующей задаче: разработка пользовательского
                             </p>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <span class="color-gray mr-auto text-truncate" href="#">
                                     Размещено 17 января, 12:12
                                 </span>
-                                <div class="mr-4 color-gray">
-                                    <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
-                                    567
-                                </div>
-                                <div class="color-gray">
-                                    <span class="icon-middle message-icon mr-1 vertical-middle"></span>
-                                    16 ответов
-                                </div>
+                                <span>
+                                    <span class="color-gray mr-4">
+                                        <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
+                                        567
+                                    </span>
+                                    <span class="color-gray">
+                                        <span class="icon-middle message-icon mr-1 vertical-middle"></span>
+                                        16 ответов
+                                    </span>
+                                </span>
                             </div>
                         </div>
 
                         <!-- request 2-->
-                        <div class="col-xl-6 col-12 pr-5 mb-6">
-                            <div class="d-flex mb-2">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-10 pr-5 mb-4">
+                            <div class="d-flex flex-wrap mb-2">
                                 <a class="btn-text-big link mr-auto text-truncate" href="#">
                                     Герметизация душевой кабины и ванной
                                 </a>
-                                <div class="mr-4"></div>
                                 <span class="btn-text-big price mr-4 text-nowrap">150 000 ₽</span>
                                 <label class="mr-4"><input type="checkbox" class="d-none icon-checkbox like-checkbox"><span></span></label>
                                 <label class=""><input type="checkbox" class="d-none icon-checkbox bookmark-checkbox"><span></span></label>
@@ -303,28 +303,29 @@
                             <p class="mb-4">
                                 Разработать амбиаграммы в смеси кельтского и старославянского стиля. Ищу исполнителя по следующей задаче: разработка пользовательского
                             </p>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <span class="color-gray mr-auto text-truncate" href="#">
                                     Размещено 17 января, 12:12
                                 </span>
-                                <div class="mr-4 color-gray">
-                                    <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
-                                    567
-                                </div>
-                                <div class="color-gray">
-                                    <span class="icon-middle message-icon mr-1 vertical-middle"></span>
-                                    16 ответов
-                                </div>
+                                <span>
+                                    <span class="color-gray mr-4">
+                                        <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
+                                        567
+                                    </span>
+                                    <span class="color-gray">
+                                        <span class="icon-middle message-icon mr-1 vertical-middle"></span>
+                                        16 ответов
+                                    </span>
+                                </span>
                             </div>
                         </div>
 
                         <!-- request 3-->
-                        <div class="col-xl-6 col-12 pr-5 mb-6">
-                            <div class="d-flex mb-2">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-10 pr-5 mb-4">
+                            <div class="d-flex flex-wrap mb-2">
                                 <a class="btn-text-big link mr-auto text-truncate" href="#">
                                     Герметизация душевой кабины и ванной
                                 </a>
-                                <div class="mr-4"></div>
                                 <span class="btn-text-big price mr-4 text-nowrap">150 000 ₽</span>
                                 <label class="mr-4"><input type="checkbox" class="d-none icon-checkbox like-checkbox"><span></span></label>
                                 <label class=""><input type="checkbox" class="d-none icon-checkbox bookmark-checkbox"><span></span></label>
@@ -333,28 +334,29 @@
                             <p class="mb-4">
                                 Разработать амбиаграммы в смеси кельтского и старославянского стиля. Ищу исполнителя по следующей задаче: разработка пользовательского
                             </p>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <span class="color-gray mr-auto text-truncate" href="#">
                                     Размещено 17 января, 12:12
                                 </span>
-                                <div class="mr-4 color-gray">
-                                    <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
-                                    567
-                                </div>
-                                <div class="color-gray">
-                                    <span class="icon-middle message-icon mr-1 vertical-middle"></span>
-                                    16 ответов
-                                </div>
+                                <span>
+                                    <span class="color-gray mr-4">
+                                        <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
+                                        567
+                                    </span>
+                                    <span class="color-gray">
+                                        <span class="icon-middle message-icon mr-1 vertical-middle"></span>
+                                        16 ответов
+                                    </span>
+                                </span>
                             </div>
                         </div>
 
                         <!-- request 4-->
-                        <div class="col-xl-6 col-12 pr-5 mb-6">
-                            <div class="d-flex mb-2">
+                        <div class="col-xl-6 col-lg-12 col-md-12 col-10 pr-5 mb-4">
+                            <div class="d-flex flex-wrap mb-2">
                                 <a class="btn-text-big link mr-auto text-truncate" href="#">
                                     Герметизация душевой кабины и ванной
                                 </a>
-                                <div class="mr-4"></div>
                                 <span class="btn-text-big price mr-4 text-nowrap">150 000 ₽</span>
                                 <label class="mr-4"><input type="checkbox" class="d-none icon-checkbox like-checkbox"><span></span></label>
                                 <label class=""><input type="checkbox" class="d-none icon-checkbox bookmark-checkbox"><span></span></label>
@@ -363,34 +365,36 @@
                             <p class="mb-4">
                                 Разработать амбиаграммы в смеси кельтского и старославянского стиля. Ищу исполнителя по следующей задаче: разработка пользовательского
                             </p>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <span class="color-gray mr-auto text-truncate" href="#">
                                     Размещено 17 января, 12:12
                                 </span>
-                                <div class="mr-4 color-gray">
-                                    <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
-                                    567
-                                </div>
-                                <div class="color-gray">
-                                    <span class="icon-middle message-icon mr-1 vertical-middle"></span>
-                                    16 ответов
-                                </div>
+                                <span>
+                                    <span class="color-gray mr-4">
+                                        <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
+                                        567
+                                    </span>
+                                    <span class="color-gray">
+                                        <span class="icon-middle message-icon mr-1 vertical-middle"></span>
+                                        16 ответов
+                                    </span>
+                                </span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row mb-6">
+                    <div class="row mb-5">
                         <div class="col-12">
                             <div class="infoblock-surface" style="background-image: url('resources/images/reliable.svg');">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-xl-3 col-lg-3 hidden-md-down">
                                         </div>
-                                        <div class="col-xl-6 col-lg-6 col-12 my-4">
+                                        <div class="col-xl-6 col-lg-6 col-12 py-4 infoblock-opacity-bg">
                                             <p class="h3">СтройкаГид - строительный портал для бизнеса и частных лиц.</p>
                                             <p class="btn-text-big color-table-gray mb-0">Мы предоставляем информацию и удобные сервисы для работы.</p>
                                         </div>
-                                        <div class="col-xl-3 col-lg-3 col-12 d-flex">
+                                        <div class="col-xl-3 col-lg-3 col-12 d-flex infoblock-opacity-bg">
                                             <button type="button" class="btn btn-primary btn-text-sm p-3 m-xl-auto m-lg-auto m-3 mx-auto">О проекте</button>
                                         </div>
                                     </div>
@@ -399,11 +403,11 @@
                         </div>
                     </div>
 
-                    <div class="row mb-4">
+                    <div class="row mb-5 flex-xl-wrap flex-lg-wrap flex-md-wrap flex-nowrap overflow-auto">
                         <!-- block 1-->
-                        <div class="col-xl-6 col-lg-6 col-12 pr-5 mb-4">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-10 mb-4">
                             <div class="mb-4">
-                                <span class="h4 weight-500 mr-4">Для заказчиков</span>
+                                <span class="h4 weight-500 mr-4">Для заказчиков</span><br>
                                 <a class="m-auto d-inline-flex link" href="#">
                                     <span class="my-auto mr-2">
                                         Подробнее
@@ -412,17 +416,23 @@
                                 </a>
                             </div>
                             <div class="d-flex flex-xl-nowrap flex-wrap">
-                                <iframe class="mx-auto mb-4" width="336" height="189" src="https://www.youtube.com/embed/7qBfdcI-d1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <div class="video-descr ml-4 mb-auto">
+                                <div class="about-video-block">
+                                    <div class="wrapper-16-9 mb-2">
+                                        <div class="content-aspect">
+                                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7qBfdcI-d1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-descr ml-xl-4 ml-0 mb-auto">
                                     СтройкаГид – позволяет самостоятельно или через консультантов подобрать необходимые товары или услуги, выбрать Поставщиков и Исполнителей или оставить Заявки на сайте. Личный кабинет позволяет хранить информацию об оставленных Заявках, вести переписку и обмениваться данными с Поставщиками и Покупателями.
                                 </div>
                             </div>
                         </div>
 
                         <!-- block 2-->
-                        <div class="col-xl-6 col-lg-6 col-12 pr-5 mb-4">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-10 mb-4">
                             <div class="mb-4">
-                                <span class="h4 weight-500 mr-4">Для исполнителей</span>
+                                <span class="h4 weight-500 mr-4">Для исполнителей</span><br>
                                 <a class="m-auto d-inline-flex link" href="#">
                                     <span class="my-auto mr-2">
                                         Подробнее
@@ -431,15 +441,21 @@
                                 </a>
                             </div>
                             <div class="d-flex flex-xl-nowrap flex-wrap">
-                                <iframe class="mx-auto mb-4" width="336" height="189" src="https://www.youtube.com/embed/7qBfdcI-d1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <div class="video-descr ml-4 mb-auto">
+                                <div class="about-video-block">
+                                    <div class="wrapper-16-9 mb-2">
+                                        <div class="content-aspect">
+                                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7qBfdcI-d1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-descr ml-xl-4 ml-0 mb-auto">
                                     СтройкаГид – позволяет создать на сайте страничку своей компании с информацией о товарах и услугах, опыте работы и выполненных объектах. Личный кабинет позволяет хранить информацию о принятых Заявках, вести переписку и обмениваться данными с Покупателями и Заказчиками.
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row mb-5">
+                    <div class="row mb-4">
                         <div class="col-12">
                             <span class="h4 weight-500 mr-4">Отбираем лучших исполнителей</span>
                             <a class="m-auto d-inline-flex link" href="#">
@@ -451,27 +467,31 @@
                         </div>
                     </div>
 
-                    <div class="row mb-5">
+                    <div class="row mb-5 pt-3 flex-xl-wrap flex-lg-wrap flex-md-wrap flex-nowrap overflow-auto">
                         <!-- item 1 -->
-                        <div class="col-xl-6 col-12 position-relative mb-4">
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-10 position-relative mb-4">
                             <div class="item-card-surface">
-                                <div class="contractor-img-block">
-                                    <div class="item-img" style="background-image: url('resources/images/why.png');"></div>
-                                    <div class="item-like">
-                                        <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                <div class="wrapper-16-9">
+                                    <div class="content-aspect">
+                                        <div class="contractor-img-block">
+                                            <div class="item-img" style="background-image: url('resources/images/why.png');"></div>
+                                            <div class="item-like">
+                                                <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                            </div>
+                                            <ul class="item-achievments">
+                                                <li style="background-image: url('resources/images/reward.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-1.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-2.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward.svg');"></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <ul class="item-achievments">
-                                        <li style="background-image: url('resources/images/reward.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-1.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-2.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward.svg');"></li>
-                                    </ul>
                                 </div>
                                 <div class="item-description">  
                                     <a class="btn-text-big link color-black d-block mb-2 text-truncate" href="#">
                                         Анастасия Солженицына
                                     </a>
-                                    <div class="d-flex">
+                                    <div class="d-flex flex-wrap">
                                         <div class="mr-4 color-gray">
                                             <span class="icon-middle star-icon mr-1 vertical-middle"></span>
                                             4.7
@@ -491,23 +511,27 @@
                         </div>
 
                         <!-- item 2 -->
-                        <div class="col-xl-3 col-lg-6 col-12 position-relative mb-4">
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-10 position-relative mb-4">
                             <div class="item-card-surface">
-                                <div class="contractor-img-block">
-                                    <div class="item-img" style="background-image: url('resources/images/why.png');"></div>
-                                    <div class="item-like">
-                                        <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                <div class="wrapper-16-9">
+                                    <div class="content-aspect">
+                                        <div class="contractor-img-block">
+                                            <div class="item-img" style="background-image: url('resources/images/why.png');"></div>
+                                            <div class="item-like">
+                                                <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                            </div>
+                                            <ul class="item-achievments">
+                                                <li style="background-image: url('resources/images/reward.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-1.svg');"></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <ul class="item-achievments">
-                                        <li style="background-image: url('resources/images/reward.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-1.svg');"></li>
-                                    </ul>
                                 </div>
                                 <div class="item-description">  
                                     <a class="btn-text-big link color-black d-block mb-2 text-truncate" href="#">
                                         Родион Раскольников
                                     </a>
-                                    <div class="d-flex">
+                                    <div class="d-flex flex-wrap">
                                         <div class="mr-4 color-gray">
                                             <span class="icon-middle star-icon mr-1 vertical-middle"></span>
                                             4.7
@@ -527,22 +551,26 @@
                         </div>
 
                         <!-- item 3 -->
-                        <div class="col-xl-3 col-lg-6 col-12 position-relative mb-4">
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-10 position-relative mb-4">
                             <div class="item-card-surface">
-                                <div class="contractor-img-block">
-                                    <div class="item-img" style="background-image: url('resources/images/why.png');"></div>
-                                    <div class="item-like">
-                                        <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                <div class="wrapper-16-9">
+                                    <div class="content-aspect">
+                                        <div class="contractor-img-block">
+                                            <div class="item-img" style="background-image: url('resources/images/why.png');"></div>
+                                            <div class="item-like">
+                                                <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                            </div>
+                                            <ul class="item-achievments">
+                                                <li style="background-image: url('resources/images/reward-2.svg');"></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <ul class="item-achievments">
-                                        <li style="background-image: url('resources/images/reward-2.svg');"></li>
-                                    </ul>
                                 </div>
                                 <div class="item-description">  
                                     <a class="btn-text-big link color-black d-block mb-2 text-truncate" href="#">
                                         Софья Мармеладова
                                     </a>
-                                    <div class="d-flex">
+                                    <div class="d-flex flex-wrap">
                                         <div class="mr-4 color-gray">
                                             <span class="icon-middle star-icon mr-1 vertical-middle"></span>
                                             4.7
@@ -562,18 +590,18 @@
                         </div>
                     </div>
 
-                    <div class="row mb-6">
+                    <div class="row mb-5">
                         <div class="col-12">
                             <div class="infoblock-surface" style="background-image: url('resources/images/get-contractor.svg');">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-xl-3 col-lg-3 hidden-md-down">
                                         </div>
-                                        <div class="col-xl-6 col-lg-6 col-12 my-4">
+                                        <div class="col-xl-6 col-lg-6 col-12 py-4 infoblock-opacity-bg">
                                             <p class="h3">Вы работаете в сфере строительства и ремонта? Хотите рассказать о себе или найти новых Покупателей и Заказчиков?</p>
                                             <!-- <p class="btn-text-big color-table-gray mb-0">С нашим сервисом не нужно искать клиентов.</p> -->
                                         </div>
-                                        <div class="col-xl-3 col-lg-3 col-12 d-flex">
+                                        <div class="col-xl-3 col-lg-3 col-12 d-flex infoblock-opacity-bg">
                                             <button type="button" class="btn btn-primary btn-text-sm p-3 m-xl-auto m-lg-auto m-3 mx-auto">Зарегистрироваться</button>
                                         </div>
                                     </div>
@@ -602,81 +630,89 @@
                         </div>
                     </div>
 
-                    <div class="row mb-5">
+                    <div class="row mb-5 flex-xl-wrap flex-lg-wrap flex-md-wrap flex-nowrap overflow-auto">
                         <!-- news 1 -->
-                        <div class="col-xl-3 col-lg-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 mb-4">
                             <a class="h4 weight-500 link color-black line-clamp-3 d-block mb-3" href="#">Ипотеку молодым дальневосточникам выдадут под 2%</a>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <span class="color-gray mr-auto text-truncate" href="#">
                                     17 января 2020
                                 </span>
-                                <div class="mr-4 color-gray">
-                                    <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
-                                    567
-                                </div>
-                                <div class="color-gray">
-                                    <span class="icon-middle message-icon mr-1 vertical-middle"></span>
-                                    16 ответов
-                                </div>
+                                <span>
+                                    <span class="mr-4 color-gray">
+                                        <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
+                                        567
+                                    </span>
+                                    <span class="color-gray">
+                                        <span class="icon-middle message-icon mr-1 vertical-middle"></span>
+                                        16 ответов
+                                    </span>
+                                </span>
                             </div>
                         </div>
 
                         <!-- news 2 -->
-                        <div class="col-xl-3 col-lg-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 mb-4">
                             <a class="h4 weight-500 link color-black line-clamp-3 d-block mb-3" href="#">Ипотеку молодым дальневосточникам выдадут под 2%</a>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <span class="color-gray mr-auto text-truncate" href="#">
                                     17 января 2020
                                 </span>
-                                <div class="mr-4 color-gray">
-                                    <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
-                                    567
-                                </div>
-                                <div class="color-gray">
-                                    <span class="icon-middle message-icon mr-1 vertical-middle"></span>
-                                    16 ответов
-                                </div>
+                                <span>
+                                    <span class="mr-4 color-gray">
+                                        <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
+                                        567
+                                    </span>
+                                    <span class="color-gray">
+                                        <span class="icon-middle message-icon mr-1 vertical-middle"></span>
+                                        16 ответов
+                                    </span>
+                                </span>
                             </div>
                         </div>
 
                         <!-- news 3 -->
-                        <div class="col-xl-3 col-lg-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 mb-4">
                             <a class="h4 weight-500 link color-black line-clamp-3 d-block mb-3" href="#">Ипотеку молодым дальневосточникам выдадут под 2%</a>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <span class="color-gray mr-auto text-truncate" href="#">
                                     17 января 2020
                                 </span>
-                                <div class="mr-4 color-gray">
-                                    <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
-                                    567
-                                </div>
-                                <div class="color-gray">
-                                    <span class="icon-middle message-icon mr-1 vertical-middle"></span>
-                                    16 ответов
-                                </div>
+                                <span>
+                                    <span class="mr-4 color-gray">
+                                        <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
+                                        567
+                                    </span>
+                                    <span class="color-gray">
+                                        <span class="icon-middle message-icon mr-1 vertical-middle"></span>
+                                        16 ответов
+                                    </span>
+                                </span>
                             </div>
                         </div>
 
                         <!-- news 4 -->
-                        <div class="col-xl-3 col-lg-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 mb-4">
                             <a class="h4 weight-500 link color-black line-clamp-3 d-block mb-3" href="#">Ипотеку молодым дальневосточникам выдадут под 2%</a>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <span class="color-gray mr-auto text-truncate" href="#">
                                     17 января 2020
                                 </span>
-                                <div class="mr-4 color-gray">
-                                    <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
-                                    567
-                                </div>
-                                <div class="color-gray">
-                                    <span class="icon-middle message-icon mr-1 vertical-middle"></span>
-                                    16 ответов
-                                </div>
+                                <span>
+                                    <span class="mr-4 color-gray">
+                                        <span class="icon-middle eye-on-icon mr-1 vertical-middle"></span>
+                                        567
+                                    </span>
+                                    <span class="color-gray">
+                                        <span class="icon-middle message-icon mr-1 vertical-middle"></span>
+                                        16 ответов
+                                    </span>
+                                </span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row mb-5">
+                    <div class="row mb-4">
                         <div class="col">
                             <span class="h4 weight-500 mr-4">Последние работы</span>
                             <a class="m-auto d-inline-flex link" href="#">
@@ -688,20 +724,24 @@
                         </div>
                     </div>
 
-                    <div class="row mb-5">
+                    <div class="row mb-5 flex-xl-wrap flex-lg-wrap flex-md-wrap flex-nowrap overflow-auto">
                         <!-- item 1 -->
-                        <div class="col-xl-3 col-lg-6 col-12 position-relative mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 position-relative mb-4">
                             <div class="item-card-surface">
-                                <div class="work-img-block">
-                                    <div class="item-img" style="background-image: url('resources/images/complete-work.png');"></div>
-                                    <div class="item-like">
-                                        <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                <div class="wrapper-16-9">
+                                    <div class="content-aspect">
+                                        <div class="work-img-block">
+                                            <div class="item-img" style="background-image: url('resources/images/complete-work.png');"></div>
+                                            <div class="item-like">
+                                                <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                            </div>
+                                            <ul class="item-achievments">
+                                                <li style="background-image: url('resources/images/reward-2.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-3.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-1.svg');"></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <ul class="item-achievments">
-                                        <li style="background-image: url('resources/images/reward-2.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-3.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-1.svg');"></li>
-                                    </ul>
                                 </div>
                                 <div class="item-description">
                                     <div class="d-flex mb-2">
@@ -713,7 +753,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="d-flex mb-3">
+                                    <div class="d-flex flex-wrap mb-3">
                                         <div class="mr-4 color-gray">
                                             <span class="icon-middle star-icon mr-1 vertical-middle"></span>
                                             4.7
@@ -736,18 +776,22 @@
                         </div>
 
                         <!-- item 2 -->
-                        <div class="col-xl-3 col-lg-6 col-12 position-relative mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 position-relative mb-4">
                             <div class="item-card-surface">
-                                <div class="work-img-block">
-                                    <div class="item-img" style="background-image: url('resources/images/complete-work.png');"></div>
-                                    <div class="item-like">
-                                        <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                <div class="wrapper-16-9">
+                                    <div class="content-aspect">
+                                        <div class="work-img-block">
+                                            <div class="item-img" style="background-image: url('resources/images/complete-work.png');"></div>
+                                            <div class="item-like">
+                                                <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                            </div>
+                                            <ul class="item-achievments">
+                                                <li style="background-image: url('resources/images/reward-2.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-3.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-1.svg');"></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <ul class="item-achievments">
-                                        <li style="background-image: url('resources/images/reward-2.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-3.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-1.svg');"></li>
-                                    </ul>
                                 </div>
                                 <div class="item-description">
                                     <div class="d-flex mb-2">
@@ -759,7 +803,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="d-flex mb-3">
+                                    <div class="d-flex flex-wrap mb-3">
                                         <div class="mr-4 color-gray">
                                             <span class="icon-middle star-icon mr-1 vertical-middle"></span>
                                             4.7
@@ -782,18 +826,22 @@
                         </div>
 
                         <!-- item 3 -->
-                        <div class="col-xl-3 col-lg-6 col-12 position-relative mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 position-relative mb-4">
                             <div class="item-card-surface">
-                                <div class="work-img-block">
-                                    <div class="item-img" style="background-image: url('resources/images/complete-work.png');"></div>
-                                    <div class="item-like">
-                                        <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                <div class="wrapper-16-9">
+                                    <div class="content-aspect">
+                                        <div class="work-img-block">
+                                            <div class="item-img" style="background-image: url('resources/images/complete-work.png');"></div>
+                                            <div class="item-like">
+                                                <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                            </div>
+                                            <ul class="item-achievments">
+                                                <li style="background-image: url('resources/images/reward-2.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-3.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-1.svg');"></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <ul class="item-achievments">
-                                        <li style="background-image: url('resources/images/reward-2.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-3.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-1.svg');"></li>
-                                    </ul>
                                 </div>
                                 <div class="item-description">
                                     <div class="d-flex mb-2">
@@ -805,7 +853,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="d-flex mb-3">
+                                    <div class="d-flex flex-wrap mb-3">
                                         <div class="mr-4 color-gray">
                                             <span class="icon-middle star-icon mr-1 vertical-middle"></span>
                                             4.7
@@ -828,18 +876,22 @@
                         </div>
 
                         <!-- item 4 -->
-                        <div class="col-xl-3 col-lg-6 col-12 position-relative mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 position-relative mb-4">
                             <div class="item-card-surface">
-                                <div class="work-img-block">
-                                    <div class="item-img" style="background-image: url('resources/images/complete-work.png');"></div>
-                                    <div class="item-like">
-                                        <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                <div class="wrapper-16-9">
+                                    <div class="content-aspect">
+                                        <div class="work-img-block">
+                                            <div class="item-img" style="background-image: url('resources/images/complete-work.png');"></div>
+                                            <div class="item-like">
+                                                <label class="mb-0"><input type="checkbox" class="d-none icon-checkbox like-checkbox-white"><span class="mr-2"></span>256</label>
+                                            </div>
+                                            <ul class="item-achievments">
+                                                <li style="background-image: url('resources/images/reward-2.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-3.svg');"></li>
+                                                <li style="background-image: url('resources/images/reward-1.svg');"></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <ul class="item-achievments">
-                                        <li style="background-image: url('resources/images/reward-2.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-3.svg');"></li>
-                                        <li style="background-image: url('resources/images/reward-1.svg');"></li>
-                                    </ul>
                                 </div>
                                 <div class="item-description">
                                     <div class="d-flex mb-2">
@@ -851,7 +903,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="d-flex mb-3">
+                                    <div class="d-flex flex-wrap mb-3">
                                         <div class="mr-4 color-gray">
                                             <span class="icon-middle star-icon mr-1 vertical-middle"></span>
                                             4.7
@@ -874,18 +926,18 @@
                         </div>
                     </div>
 
-                    <div class="row mb-6">
+                    <div class="row mb-5">
                         <div class="col-12">
                             <div class="infoblock-surface" style="background-image: url('resources/images/professionals.svg');">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-xl-3 col-lg-3 hidden-md-down">
                                         </div>
-                                        <div class="col-xl-6 col-lg-6 col-12 my-4">
+                                        <div class="col-xl-6 col-lg-6 col-12 py-4 infoblock-opacity-bg">
                                             <p class="h3"> Нужны сотрудники или ищите работу?</p>
                                             <p class="btn-text-big color-table-gray mb-0">Воспользуйтесь сервисом поиска работы и подбора персонала СтройкаГид!</p>
                                         </div>
-                                        <div class="col-xl-3 col-lg-3 col-12 d-flex">
+                                        <div class="col-xl-3 col-lg-3 col-12 d-flex infoblock-opacity-bg">
                                             <button type="button" class="btn btn-primary btn-text-sm p-3 m-xl-auto m-lg-auto m-3 mx-auto">Найти мастера</button>
                                         </div>
                                     </div>
@@ -894,7 +946,7 @@
                         </div>
                     </div>
 
-                    <div class="row mb-5">
+                    <div class="row mb-4">
                         <div class="col">
                             <span class="h4 weight-500 mr-4">Отзывы</span>
                             <a class="m-auto d-inline-flex link" href="#">
@@ -906,9 +958,9 @@
                         </div>
                     </div>
 
-                    <div class="row mb-5">
+                    <div class="row mb-5 flex-xl-wrap flex-lg-wrap flex-md-wrap flex-nowrap overflow-auto">
                         <!-- review 1 -->
-                        <div class="col-xl-3 col-lg-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 mb-4">
                             <div class="item-card-surface">
                                 <div class="wrapper-16-9 mb-2">
                                     <div class="content-aspect">
@@ -925,7 +977,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="d-flex mb-3">
+                                    <div class="d-flex flex-wrap mb-3">
                                         <span class="color-gray mr-auto text-truncate" href="#">
                                             17 января 2020
                                         </span>
@@ -939,7 +991,7 @@
                         </div>
 
                         <!-- review 2 -->
-                        <div class="col-xl-3 col-lg-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 mb-4">
                             <div class="item-card-surface">
                                 <div class="wrapper-16-9 mb-2">
                                     <div class="content-aspect">
@@ -956,7 +1008,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="d-flex mb-3">
+                                    <div class="d-flex flex-wrap mb-3">
                                         <span class="color-gray mr-auto text-truncate" href="#">
                                             17 января 2020
                                         </span>
@@ -970,7 +1022,7 @@
                         </div>
 
                         <!-- review 3 -->
-                        <div class="col-xl-3 col-lg-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 mb-4">
                             <div class="item-card-surface">
                                 <div class="wrapper-16-9 mb-2">
                                     <div class="content-aspect">
@@ -987,7 +1039,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="d-flex mb-3">
+                                    <div class="d-flex flex-wrap mb-3">
                                         <span class="color-gray mr-auto text-truncate" href="#">
                                             17 января 2020
                                         </span>
@@ -1001,7 +1053,7 @@
                         </div>
 
                         <!-- review 4 -->
-                        <div class="col-xl-3 col-lg-6 col-12 mb-4">
+                        <div class="col-xl-3 col-lg-6 col-md-12 col-10 mb-4">
                             <div class="item-card-surface">
                                 <div class="wrapper-16-9 mb-2">
                                     <div class="content-aspect">
@@ -1018,7 +1070,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="d-flex mb-3">
+                                    <div class="d-flex flex-wrap mb-3">
                                         <span class="color-gray mr-auto text-truncate" href="#">
                                             17 января 2020
                                         </span>
@@ -1039,11 +1091,11 @@
                     </div>
 
                     <div class="row mb-5">
-                    	<div class="col d-flex">
-                            <div class="scroll-btn my-auto">
+                    	<div class="col d-flex px-xl-4 px-lg-4 px-md-4 px-0">
+                            <div class="scroll-btn my-auto d-xl-block d-lg-block d-md-block d-none">
                     	        <button class="round-button left-arrow-icon" id="partnersRight"></button>
                             </div>
-                    		<div class="flex-grow-1 partners-wrapper mx-4"  id="partnersWrapper">
+                    		<div class="flex-grow-1 partners-wrapper mx-xl-4 mx-lg-4 mx-md-4 mx-0"  id="partnersWrapper">
                                 <div class="partners-content" id="partnersContent">
 
                                     <a class="item-card-surface-2" href="#">
@@ -1155,7 +1207,7 @@
                                     </a>
                                 </div>
                     		</div>
-                            <div class="scroll-btn my-auto">
+                            <div class="scroll-btn my-auto d-xl-block d-lg-block d-md-block d-none">
                         		<button class="round-button right-arrow-icon" id="partnersLeft"></button>
                             </div>
                     	</div>

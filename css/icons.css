@@ -42,6 +42,10 @@
 	background-image: url(../resources/icons/search.svg);
 }
 
+.sliders-icon {
+	background-image: url(../resources/icons/sliders.svg);
+}
+
 .right-icon {
 	background-image: url(../resources/icons/right.svg); 
 }
