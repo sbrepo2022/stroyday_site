@@ -161,6 +161,11 @@ a:hover {
 }
 
 /* navbar */
+.header-line {
+	background-color: var(--color-primary);
+	color: var(--color-white);
+}
+
 .navbar-main .navbar-nav .nav-link {
 	color: var(--color-dark-blue);
 }

@@ -61,6 +61,15 @@
 	text-decoration: none;
 }
 
+.link-white {
+	color: var(--color-white);
+}
+
+.link-white:hover {
+	color: var(--color-gray);
+	text-decoration: none;
+}
+
 .underlined-link {
 	color: var(--color-dark-blue);
 }
