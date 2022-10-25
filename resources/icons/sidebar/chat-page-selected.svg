@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="14.338547"
-   height="24.670206"
-   viewBox="0 0 14.338547 24.670206"
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
    version="1.1"
    id="svg4"
-   sodipodi:docname="left-arrow.svg"
-   style="fill:none"
+   sodipodi:docname="chat-page-selected.svg"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <metadata
      id="metadata10">
@@ -41,16 +41,17 @@
      inkscape:window-height="480"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="9.0769233"
-     inkscape:cx="5.3616874"
-     inkscape:cy="9.5615578"
+     inkscape:zoom="14.75"
+     inkscape:cx="8"
+     inkscape:cy="8"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg4" />
   <path
-     d="m 5.5881098,12.335085 5.1658002,5.16577 -1.0017402,1.001799 -6.167533,-6.167569 6.167533,-6.1675335 1.0017402,1.001733 z"
+     d="M3.66663 11.9667H3.37668L3.17165 12.1718L1.36663 13.9768V2.16675C1.36663 1.72835 1.72823 1.36675 2.16663 1.36675H14.1666C14.605 1.36675 14.9666 1.72835 14.9666 2.16675V11.1667C14.9666 11.6051 14.605 11.9667 14.1666 11.9667H3.66663Z"
+     stroke="#90A0B7"
+     stroke-width="1.4"
      id="path2"
-     inkscape:connector-curvature="0"
-     style="clip-rule:evenodd;fill:#334d6e;fill-rule:evenodd;stroke-width:1" />
+     style="stroke:#0042eb;stroke-opacity:1" />
 </svg>

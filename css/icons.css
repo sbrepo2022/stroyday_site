@@ -2,7 +2,7 @@
 	display: inline-block;
 	width: 1.5em;
 	height: 1.5em;
-	background-size: contain; 
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -10,7 +10,7 @@
 	display: inline-block;
 	width: 0.5em;
 	height: 0.5em;
-	background-size: contain; 
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -18,7 +18,7 @@
 	display: inline-block;
 	width: 1em;
 	height: 1em;
-	background-size: contain; 
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -26,16 +26,40 @@
 	display: inline-block;
 	width: 1.25em;
 	height: 1.25em;
-	background-size: contain; 
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icon-big {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icon-xbig {
+	display: inline-block;
+	width: 3em;
+	height: 3em;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icon-full {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 .login-icon {
-	background-image: url(../resources/icons/log_in.svg); 
-} 
+	background-image: url(../resources/icons/log_in.svg);
+}
 
 .menu-icon {
-	background-image: url(../resources/icons/menu.svg); 
+	background-image: url(../resources/icons/menu.svg);
 }
 
 .search-icon {
@@ -47,7 +71,7 @@
 }
 
 .right-icon {
-	background-image: url(../resources/icons/right.svg); 
+	background-image: url(../resources/icons/right.svg);
 }
 
 .eye-on-icon {
@@ -106,6 +130,156 @@
 	background-image: url(../resources/icons/right-arrow.svg);
 }
 
+.three-dots-icon {
+	background-image: url(../resources/icons/three_dots.svg);
+}
+
+.plus-icon {
+	background-image: url(../resources/icons/plus.svg);
+}
+
+.edit-icon {
+	background-image: url(../resources/icons/edit.svg);
+}
+
+.delete-icon {
+	background-image: url(../resources/icons/delete.svg);
+}
+
+.accept-icon {
+	background-image: url(../resources/icons/accept.svg);
+}
+
+.instagram-colored-icon {
+	background-image: url(../resources/icons/instagram_colored.svg);
+}
+
+.google-colored-icon {
+	background-image: url(../resources/icons/google_colored.svg);
+}
+
+.vk-colored-icon {
+	background-image: url(../resources/icons/vk_colored.svg);
+}
+
+.gosuslugi-colored-icon {
+	background-image: url(../resources/icons/gosuslugi_colored.png);
+}
+
+.twitter-colored-icon {
+	background-image: url(../resources/icons/twitter_colored.svg);
+}
+
+.odnoklassniki-colored-icon {
+	background-image: url(../resources/icons/odnoklassniki_colored.svg);
+}
+
+.time-stroke-icon {
+	background-image: url(../resources/icons/time_stroke.svg);
+}
+
+/* account sidebar */
+.side-main-icon {
+	background-image: url(../resources/icons/sidebar/main-page.svg);
+}
+
+.side-elem.active .side-main-icon {
+	background-image: url(../resources/icons/sidebar/main-page-selected.svg);
+}
+
+.side-messages-icon {
+	background-image: url(../resources/icons/sidebar/message-page.svg);
+}
+
+.side-elem.active .side-messages-icon {
+	background-image: url(../resources/icons/sidebar/message-page-selected.svg);
+}
+
+.side-calendar-icon {
+	background-image: url(../resources/icons/sidebar/calendar-page.svg);
+}
+
+.side-elem.active .side-calendar-icon {
+	background-image: url(../resources/icons/sidebar/calendar-page-selected.svg);
+}
+
+.side-money-icon {
+	background-image: url(../resources/icons/sidebar/money-page.svg);
+}
+
+.side-elem.active .side-money-icon {
+	background-image: url(../resources/icons/sidebar/money-page-selected.svg);
+}
+
+.side-chat-icon {
+	background-image: url(../resources/icons/sidebar/chat-page.svg);
+}
+
+.side-elem.active .side-chat-icon {
+	background-image: url(../resources/icons/sidebar/chat-page-selected.svg);
+}
+
+.side-documents-icon {
+	background-image: url(../resources/icons/sidebar/documents-page.svg);
+}
+
+.side-elem.active .side-documents-icon {
+	background-image: url(../resources/icons/sidebar/documents-page-selected.svg);
+}
+
+.side-book-icon {
+	background-image: url(../resources/icons/sidebar/book-page.svg);
+}
+
+.side-elem.active .side-book-icon {
+	background-image: url(../resources/icons/sidebar/book-page-selected.svg);
+}
+
+.side-blog-icon {
+	background-image: url(../resources/icons/sidebar/blog-page.svg);
+}
+
+.side-elem.active .side-blog-icon {
+	background-image: url(../resources/icons/sidebar/blog-page-selected.svg);
+}
+
+.side-favorite-icon {
+	background-image: url(../resources/icons/sidebar/favorite-page.svg);
+}
+
+.side-elem.active .side-favorite-icon {
+	background-image: url(../resources/icons/sidebar/favorite-page-selected.svg);
+}
+
+.side-chart-icon {
+	background-image: url(../resources/icons/sidebar/chart-page.svg);
+}
+
+.side-elem.active .side-chart-icon {
+	background-image: url(../resources/icons/sidebar/chart-page-selected.svg);
+}
+
+.side-settings-icon {
+	background-image: url(../resources/icons/sidebar/settings-page.svg);
+}
+
+.side-elem.active .side-settings-icon {
+	background-image: url(../resources/icons/sidebar/settings-page-selected.svg);
+}
+
+/* login icons */
+.user-icon {
+	background-image: url(../resources/icons/login/user.svg);
+}
+
+.key-icon {
+	background-image: url(../resources/icons/login/key.svg);
+}
+
+.mail-icon {
+	background-image: url(../resources/icons/login/mail.svg);
+}
+
 /* checkboxes */
 @keyframes animTouch {
 	0% {transform: scale(1.0);}
@@ -124,7 +298,7 @@
 	vertical-align: middle;
 	width: 1em;
 	height: 1em;
-	background-size: contain; 
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -137,7 +311,7 @@
 }
 
 .like-checkbox:checked + span {
-	background-image: url(../resources/icons/like-checked.svg); 
+	background-image: url(../resources/icons/like-checked.svg);
 }
 
 .like-checkbox-white + span {
@@ -145,7 +319,7 @@
 }
 
 .like-checkbox-white:checked + span {
-	background-image: url(../resources/icons/like-white.svg); 
+	background-image: url(../resources/icons/like-white.svg);
 }
 
 .bookmark-checkbox + span {
@@ -153,5 +327,30 @@
 }
 
 .bookmark-checkbox:checked + span {
-	background-image: url(../resources/icons/bookmark-checked.svg); 
+	background-image: url(../resources/icons/bookmark-checked.svg);
+}
+
+/* dots */
+.light-blue-dot {
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #2f80ed;
+}
+
+.orange-dot {
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #f17070;
+}
+
+.green-dot {
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #219653;
 }

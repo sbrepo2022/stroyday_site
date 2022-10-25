@@ -1,0 +1,151 @@
+:root {
+	--default-credit-color: #ccc;
+}
+
+.dropdown-menu-account {
+	margin-right: -4rem;
+}
+
+.pass-change-inputs, .pass-change-inputs input {
+	width: 100% ! important;
+	max-width: 500px;
+}
+
+.data-change-descr {
+	display: inline-block;
+	padding: 1rem;
+}
+
+.data-descr.input-style {
+	width: 100%;
+}
+
+.container-credit {
+	position: relative;
+	max-width: 500px;
+	width: 100%;
+}
+
+.credit-pos {
+	position: absolute;
+	width: 66%;
+}
+
+.credit-pos-1 {
+	left: 0px;
+	top: 0px;
+}
+.credit-pos-2 {
+	left: 33%;
+	top: 33%;
+}
+
+.credit-surface {
+	background-color: var(--default-credit-color);
+	box-shadow: 0px .25rem 1rem 0 #3333;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	transition: background 0.3s ease;
+}
+
+.credit-card-line {
+	position: absolute;
+	top: 10%;
+	height: 15%;
+	width: 100%;
+	background-color: #555;
+}
+
+.credit-input {
+	position: absolute;
+	background-color: #ececec;
+	border-radius: 0.5rem;
+	padding: 0.3rem;
+}
+
+.credit-input input {
+	background-color: #ececec;
+	border: none;
+	width: 100%;
+	text-align: center;
+}
+
+.credit-input {
+	font-size: 1rem;
+}
+
+@media (max-width: 767.98px) {
+	.credit-input {
+		font-size: 0.75rem;
+	}
+}
+
+.credit-cvv {
+	left: 65%;
+	bottom: 15%;
+	width: 20%;
+}
+
+.credit-number {
+	left: 5%;
+	top: 25%;
+	width: 90%;
+}
+
+.credit-date {
+	right: 40%;
+	top: 52%;
+	width: 25%;
+}
+
+.credit-name {
+	left: 5%;
+	top: 77%;
+	width: 55%;
+}
+
+.credit-line-2 {
+	left: 5%;
+	top: 10%;
+	width: 45%;
+	height: 1rem;
+	border-radius: 1rem;
+}
+
+.credit-dot-1 {
+	left: 10%;
+	bottom: 15%;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+
+.credit-dot-2 {
+	left: 20%;
+	bottom: 15%;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+
+.credit-dot-3 {
+	left: 30%;
+	bottom: 15%;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+
+.credit-image {
+	position: absolute;
+
+	right: 5%;
+	bottom: 5%;
+	width: 30%;
+	height: 30%;
+
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+

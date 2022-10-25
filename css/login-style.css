@@ -1,0 +1,51 @@
+.login-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../resources/images/login_bg.jpg');
+}
+
+.login-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 2rem;
+    right: 2rem;
+}
+
+.login-bg-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #334D6E44;
+}
+
+.login-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    max-width: 630px;
+    width: 100%;
+
+    text-align: center;
+    padding: 4rem 2rem 4rem 2rem ! important;
+
+    box-shadow: none ! important;
+}
+
+.login-inner {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}

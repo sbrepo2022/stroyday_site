@@ -1,19 +1,26 @@
 :root {
     --color-white: #fff;
 
-	--color-primary: #1B2F54;
+	--color-primary: #1b2f54;
 	--color-btn-primary: #0d6fe3;
-	--color-light-gray: #dfe6f0;
+    --color-text-primary: #0042eb;
+    --color-text-secondary: #4d5259;
     --color-infoblock-bg: #eff4fb;
+    --color-tab-bg: #e7ebf3;
     --color-infoblock-opacity-bg: #eff4fbdd;
 
     --color-dark-blue: #334d6e;
 	--color-gray: #90a0b7;
     --color-icon-gray: #c2cfe0;
+    --color-bg-gray: #f5f6f8;
+    --color-header-gray: #fefefe;
+    --color-light-gray: #dfe6f0;
 
     --color-black: #192a3e;
     --color-table-black: #323c47;
     --color-table-gray: #707683;
+
+    --color-red: #bd2130;
 }
 
 .color-white {
@@ -22,6 +29,10 @@
 
 .color-primary {
 	color: var(--color-primary);
+}
+
+.color-text-secondary {
+    color: var(--color-text-secondary);
 }
 
 .color-dark-blue {
@@ -46,4 +57,8 @@
 
 .color-table-gray {
     color: var(--color-table-gray);
+}
+
+.color-red {
+    color: var(--color-red);
 }

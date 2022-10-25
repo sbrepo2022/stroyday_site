@@ -43,3 +43,25 @@
 		
 	}
 }
+
+.account-pict {
+	overflow: hidden;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	background-color: var(--color-bg-gray);
+}
+
+.account-title {
+	max-width: 7rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.account-dropdown {
+	padding: .75rem ! important;
+}
+
+.account-dropdown::after {
+	display: none;
+}

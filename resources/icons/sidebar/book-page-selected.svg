@@ -7,16 +7,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="14.338547"
-   height="24.670206"
-   viewBox="0 0 14.338547 24.670206"
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
    version="1.1"
-   id="svg4"
-   sodipodi:docname="left-arrow.svg"
-   style="fill:none"
+   id="svg6"
+   sodipodi:docname="book-page-selected.svg"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <metadata
-     id="metadata10">
+     id="metadata12">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -27,7 +27,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs8" />
+     id="defs10" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -39,18 +39,29 @@
      inkscape:pageshadow="2"
      inkscape:window-width="751"
      inkscape:window-height="480"
-     id="namedview6"
+     id="namedview8"
      showgrid="false"
-     inkscape:zoom="9.0769233"
-     inkscape:cx="5.3616874"
-     inkscape:cy="9.5615578"
+     inkscape:zoom="14.75"
+     inkscape:cx="8"
+     inkscape:cy="8"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg4" />
+     inkscape:current-layer="svg6" />
   <path
-     d="m 5.5881098,12.335085 5.1658002,5.16577 -1.0017402,1.001799 -6.167533,-6.167569 6.167533,-6.1675335 1.0017402,1.001733 z"
+     d="M1.33325 2H5.33325C6.0405 2 6.71877 2.28095 7.21887 2.78105C7.71897 3.28115 7.99992 3.95942 7.99992 4.66667V14C7.99992 13.4696 7.78921 12.9609 7.41413 12.5858C7.03906 12.2107 6.53035 12 5.99992 12H1.33325V2Z"
+     stroke="#90A0B7"
+     stroke-width="1.41667"
+     stroke-linecap="round"
+     stroke-linejoin="round"
      id="path2"
-     inkscape:connector-curvature="0"
-     style="clip-rule:evenodd;fill:#334d6e;fill-rule:evenodd;stroke-width:1" />
+     style="stroke:#0042eb;stroke-opacity:1" />
+  <path
+     d="M14.6667 2H10.6667C9.95942 2 9.28115 2.28095 8.78105 2.78105C8.28095 3.28115 8 3.95942 8 4.66667V14C8 13.4696 8.21071 12.9609 8.58579 12.5858C8.96086 12.2107 9.46957 12 10 12H14.6667V2Z"
+     stroke="#90A0B7"
+     stroke-width="1.41667"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path4"
+     style="stroke:#0042eb;stroke-opacity:1" />
 </svg>

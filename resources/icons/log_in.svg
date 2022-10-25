@@ -14,7 +14,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="log_in.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <metadata
      id="metadata14">
     <rdf:RDF>
@@ -42,7 +42,7 @@
      id="namedview10"
      showgrid="false"
      inkscape:zoom="9.8333333"
-     inkscape:cx="29.288136"
+     inkscape:cx="10.983051"
      inkscape:cy="12"
      inkscape:window-x="294"
      inkscape:window-y="109"
@@ -55,7 +55,7 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path2"
-     style="stroke:#c4c4c4;stroke-opacity:1" />
+     style="stroke:#90a0b7;stroke-opacity:1" />
   <path
      d="M10 17L15 12L10 7"
      stroke="#25282B"
@@ -63,7 +63,7 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path4"
-     style="stroke:#c4c4c4;stroke-opacity:1" />
+     style="stroke:#90a0b7;stroke-opacity:1" />
   <path
      d="M15 12H3"
      stroke="#25282B"
@@ -71,5 +71,5 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path6"
-     style="stroke:#c4c4c4;stroke-opacity:1" />
+     style="stroke:#90a0b7;stroke-opacity:1" />
 </svg>

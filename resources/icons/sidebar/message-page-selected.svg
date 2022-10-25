@@ -7,16 +7,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="14.338547"
-   height="24.670206"
-   viewBox="0 0 14.338547 24.670206"
+   width="15"
+   height="14"
+   viewBox="0 0 15 14"
+   fill="none"
    version="1.1"
-   id="svg4"
-   sodipodi:docname="left-arrow.svg"
-   style="fill:none"
+   id="svg6"
+   sodipodi:docname="message-page-selected.svg"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <metadata
-     id="metadata10">
+     id="metadata12">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -27,7 +27,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs8" />
+     id="defs10" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -39,18 +39,25 @@
      inkscape:pageshadow="2"
      inkscape:window-width="751"
      inkscape:window-height="480"
-     id="namedview6"
+     id="namedview8"
      showgrid="false"
-     inkscape:zoom="9.0769233"
-     inkscape:cx="5.3616874"
-     inkscape:cy="9.5615578"
+     inkscape:zoom="16.857143"
+     inkscape:cx="7.5"
+     inkscape:cy="7"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg4" />
+     inkscape:current-layer="svg6" />
   <path
-     d="m 5.5881098,12.335085 5.1658002,5.16577 -1.0017402,1.001799 -6.167533,-6.167569 6.167533,-6.1675335 1.0017402,1.001733 z"
+     d="M0.7075 1.66719V1.66667C0.7075 1.06062 1.13344 0.7 1.5 0.7H13.5C13.8709 0.7 14.3 1.0654 14.3 1.66667V11.6667C14.3 12.2679 13.8709 12.6333 13.5 12.6333H1.5C1.1292 12.6333 0.70012 12.268 0.7 11.6669C0.7 11.6668 0.7 11.6667 0.7 11.6667L0.7075 1.66719Z"
+     stroke="#90A0B7"
+     stroke-width="1.4"
      id="path2"
-     inkscape:connector-curvature="0"
-     style="clip-rule:evenodd;fill:#334d6e;fill-rule:evenodd;stroke-width:1" />
+     style="stroke:#0042eb;stroke-opacity:1" />
+  <path
+     d="M0.749878 1.66675L7.49988 6.66675L14.2499 1.66675"
+     stroke="#90A0B7"
+     stroke-width="1.4"
+     id="path4"
+     style="stroke:#0042eb;stroke-opacity:1" />
 </svg>

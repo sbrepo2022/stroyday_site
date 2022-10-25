@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="14.338547"
-   height="24.670206"
-   viewBox="0 0 14.338547 24.670206"
+   width="15"
+   height="15"
+   viewBox="0 0 15 15"
+   fill="none"
    version="1.1"
    id="svg4"
-   sodipodi:docname="left-arrow.svg"
-   style="fill:none"
+   sodipodi:docname="documents-page-selected.svg"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <metadata
      id="metadata10">
@@ -41,16 +41,17 @@
      inkscape:window-height="480"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="9.0769233"
-     inkscape:cx="5.3616874"
-     inkscape:cy="9.5615578"
+     inkscape:zoom="15.733333"
+     inkscape:cx="7.5"
+     inkscape:cy="7.5"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg4" />
   <path
-     d="m 5.5881098,12.335085 5.1658002,5.16577 -1.0017402,1.001799 -6.167533,-6.167569 6.167533,-6.1675335 1.0017402,1.001733 z"
+     d="M0.789474 0.7H14.2105C14.2201 0.7 14.2381 0.70319 14.2599 0.726213C14.2822 0.74976 14.3 0.786725 14.3 0.833333V5.83333C14.3 5.87994 14.2822 5.91691 14.2599 5.94045C14.2381 5.96348 14.2201 5.96667 14.2105 5.96667H0.789474C0.779896 5.96667 0.761886 5.96348 0.740075 5.94045C0.717767 5.91691 0.7 5.87994 0.7 5.83333V0.833333C0.7 0.786725 0.717767 0.74976 0.740075 0.726213C0.761886 0.70319 0.779895 0.7 0.789474 0.7ZM0.789474 9.03333H14.2105C14.2201 9.03333 14.2381 9.03652 14.2599 9.05955C14.2822 9.08309 14.3 9.12006 14.3 9.16667V14.1667C14.3 14.2133 14.2822 14.2502 14.2599 14.2738C14.2381 14.2968 14.2201 14.3 14.2105 14.3H0.789474C0.779896 14.3 0.761886 14.2968 0.740075 14.2738C0.717767 14.2502 0.7 14.2133 0.7 14.1667V9.16667C0.7 9.12006 0.717767 9.08309 0.740075 9.05955C0.761886 9.03652 0.779895 9.03333 0.789474 9.03333Z"
+     stroke="#90A0B7"
+     stroke-width="1.4"
      id="path2"
-     inkscape:connector-curvature="0"
-     style="clip-rule:evenodd;fill:#334d6e;fill-rule:evenodd;stroke-width:1" />
+     style="stroke:#0042eb;stroke-opacity:1" />
 </svg>
